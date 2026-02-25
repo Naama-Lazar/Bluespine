@@ -16,6 +16,7 @@ Verbatim Quotes: Validates that extracted quotes exist word-for-word in the poli
 HTML Reporting: Generates a clean, readable visual report for the final output.
 
 📂 Project Structure
+
 Bluespine
   main.py
   api_key.txt
@@ -30,6 +31,7 @@ Bluespine
   input_files/
   output_files/
 
+  
   
 🚀 How to Run
 Place a medical policy PDF in the input_files/ folder.
