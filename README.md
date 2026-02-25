@@ -1,4 +1,4 @@
-<img width="1361" height="702" alt="image" src="https://github.com/user-attachments/assets/4dd98edb-4335-4025-ad11-0e6ee01d12ab" />Bluespine Medical Policy AI Agent 🩺🤖
+Medical Policy AI Agent 🩺🤖
 An automated RAG-based (Retrieval-Augmented Generation) pipeline designed to analyze medical insurance policies.
 The agent extracts structured billing rules, clinical exclusions, and frequency limits from PDF documents, translates them into executable SQL logic, and validates the results against the original source text.
 
@@ -16,22 +16,7 @@ Verbatim Quotes: Validates that extracted quotes exist word-for-word in the poli
 HTML Reporting: Generates a clean, readable visual report for the final output.
 
 📂 Project Structure
-Bluespine
-    main.py                # Main entry point - Orchestrates the flow
-    api_key.txt            # Your Groq API key (Keep this private!)
-    requirements.txt       # Project dependencies
-    core
-        __init__.py
-        agent.py           # LLM logic & pipeline orchestration
-        rag_engine.py      # RAG logic (Vector DB, Splitting, Retrieval)
-        prompts.py         # Advanced system prompts & SQL schema
-    utils
-        __init__.py
-        pdf_utils.py       # PDF parsing & text cleaning
-        formatters.py      # HTML generation & Validation logic
-    input_files            # Place source PDF policies here
-    output_files           # Resulting HTML reports are saved here
-
+<img width="100" height="702" alt="image" src="https://github.com/user-attachments/assets/4dd98edb-4335-4025-ad11-0e6ee01d12ab" />Bluespine  
 
 🚀 How to Run
 Place a medical policy PDF in the input_files/ folder.
