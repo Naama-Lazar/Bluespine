@@ -16,8 +16,21 @@ Verbatim Quotes: Validates that extracted quotes exist word-for-word in the poli
 HTML Reporting: Generates a clean, readable visual report for the final output.
 
 📂 Project Structure
-<img width="100" height="702" alt="image" src="https://github.com/user-attachments/assets/4dd98edb-4335-4025-ad11-0e6ee01d12ab" />Bluespine  
+Bluespine
+  main.py
+  api_key.txt
+  requirements.txt
+  core/
+    agent.py
+    rag_engine.py
+    prompts.py
+  utils/
+    pdf_utils.py
+    formatters.py
+  input_files/
+  output_files/
 
+  
 🚀 How to Run
 Place a medical policy PDF in the input_files/ folder.
 
