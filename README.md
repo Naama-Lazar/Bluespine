@@ -16,7 +16,21 @@ Verbatim Quotes: Validates that extracted quotes exist word-for-word in the poli
 HTML Reporting: Generates a clean, readable visual report for the final output.
 
 📂 Project Structure
-![Uploading Screenshot 2026-02-25 at 2.51.31 PM.png…]()
+Bluespine
+    main.py                # Main entry point - Orchestrates the flow
+    api_key.txt            # Your Groq API key (Keep this private!)
+    requirements.txt       # Project dependencies
+    core
+        __init__.py
+        agent.py           # LLM logic & pipeline orchestration
+        rag_engine.py      # RAG logic (Vector DB, Splitting, Retrieval)
+        prompts.py         # Advanced system prompts & SQL schema
+    utils
+        __init__.py
+        pdf_utils.py       # PDF parsing & text cleaning
+        formatters.py      # HTML generation & Validation logic
+    input_files            # Place source PDF policies here
+    output_files           # Resulting HTML reports are saved here
 
 
 🚀 How to Run
